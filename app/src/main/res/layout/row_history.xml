@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+              android:layout_height="wrap_content">
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/img_flag"
+        android:src="@drawable/ic_turned_in_black_24dp"
+        android:layout_width="30dp"
+        android:layout_centerVertical="true"
+        android:layout_height="25dp"/>
+
+    <TextView
+        android:id="@+id/tv_language_translate"
+        android:layout_alignParentRight="true"
+        android:text="EN-RU"
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/img_flag"
+        android:layout_toEndOf="@+id/img_flag">
+
+    <TextView
+        android:text="Hello"
+        android:id="@+id/tv_original_word"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Привет"
+        android:layout_below="@id/tv_original_word"
+        android:id="@+id/tv_translate_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</RelativeLayout>

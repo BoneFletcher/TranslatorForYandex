@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffdc61</color>
+    <color name="colorPrimaryDark">#e1c255</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorYellowFlag">#ffcc00</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlack50">#50000000</color>
+    <color name="colorGrey">#8e8e8e</color>
+    <color name="colorGreyForIcon">#858e98</color>
+    <color name="colorBorderInput">#cccccc</color>
+    <color name="fifty_percent_transparency_grey_400">#80bdbdbd</color>
+
+
+</resources>
